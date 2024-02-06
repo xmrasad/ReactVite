@@ -2,8 +2,8 @@ function Header(){
   return (
     <>
       <div className="flex align-middle justify-between">
-        <div className="mr-8"><img src="images/logo.svg" alt="" /></div>
-        <div className="flex w-[600px] justify-around pt-4">
+        <div className="mr-8 w-[100px] mt-2 ml-2"><img src="images/logo.svg" alt="" /></div>
+        <div className="flex w-[600px]  justify-around pt-4">
           <span>Categories</span>
           <span>boAt Personalisation</span>
           <span>Gift with boAt</span>
