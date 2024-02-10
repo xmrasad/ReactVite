@@ -2,7 +2,7 @@ function Dailydeals (){
   return(
     <div>
       <div><h2>Today's Offers</h2></div>
-      <div className="relative"><img src="/images/dailydeals.webp" className="" alt="" /> <h1 className=" text-3xl font-bold absolute right-[350px] top-[30px] text-white">Deal End's in 3 Hours</h1></div>
+      <div className="relative flex items-center justify-center"><img src="/images/dailydeals.webp" className=" w-[100%]" alt="" /> <h1 className=" text-3xl font-bold absolute flex justify-center text-red-600">Deal End's in 3 Hours</h1></div>
 
 
 
@@ -14,7 +14,7 @@ function Dailydeals (){
           </div>
         </div>
 
-        <div>
+        <div>qqqq
           <h2>Ending in </h2>
           <h1>17 hours : 23 mins : 23 sec</h1>
         </div>

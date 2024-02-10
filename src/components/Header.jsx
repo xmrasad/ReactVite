@@ -1,8 +1,8 @@
 function Header(){
   return (
     <>
-      <div className="flex align-middle w-[100%] justify-between">
-        <div className="mr-8 w-[100px] mt-2 ml-2"><img className=" mt-3" src="images/logo.svg" alt="" /></div>
+      <div className="flex w-[100%] justify-between">
+        <div className="mr-8 ml-5 w-[100px] flex align-bottom"><img className="" src="images/logo.svg" alt="" /></div>
         <div className="flex w-[600px] text-[12px] justify-around pt-7">
           <span>Categories</span>
           <span>boAt Personalisation</span>
