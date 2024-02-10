@@ -3,7 +3,7 @@ function Dailydealsproduct (){
     return(
         <div className="px-[40px] grid grid-flow-col gap-[20px] overflow-x-scroll">
             {product.map((prod) => (
-                <div className="w-[280px]">
+                <div className="w-[280px] relative">
                     <div className="w-[280px]"><img className="rounded-t-2xl" src={prod} alt="" /></div>
                     <div className="flex rounded-b-2xl bg-cyan-100 flex-row">
                         <div className="flex flex-col">
@@ -23,6 +23,7 @@ function Dailydealsproduct (){
                             <div><button className="w-[100px] h-[35px] border-none bg-black text-white rounded-lg">Add to cart</button></div>
                         </div>
                     </div>
+                    <div className="bg-red-500 rounded-md border-none absolute right-[80px] bottom-[60px] text-white"><h3>23 Days Playback</h3></div>
                 </div>
             ))}
         
