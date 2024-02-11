@@ -18,7 +18,7 @@ function Bestseller(){
     // liveadd.map((add) => (console.log(add.v3.name)));
     return(
         <>
-            <div>
+            <div className="">
                 <div className="pl-[28px] my-4"><h2>Explore BestSeller</h2></div>
                     <div className="flex pl-[28px] pr-[28px] overflow-x-scroll overflow-scroll">
                             <div className="grid grid-flow-col grid-cols-5 gap-x-5 gap-y-5 pl-[28px] pr-[28px] flex-none">{leadd.map((add) => (
