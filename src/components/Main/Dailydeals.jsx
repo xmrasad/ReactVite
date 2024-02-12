@@ -2,24 +2,10 @@ function Dailydeals (){
   return(
     <div>
       <div><h2>Today's Offers</h2></div>
-      <div className="relative mb-[30px]"><img src="/images/dailydeals.webp" className="" alt="" /> <h1 className=" text-3xl font-bold absolute right-[350px] top-[30px] text-white">Deal End's in 3 Hours</h1></div>
-
-
-
-      {/* <div className="flex justify-around">
-        <div>
-          <div><h1>DAILY DEALS</h1></div>
-          <div>
-            <h4>up to <h3>73%</h3> off</h4>
-          </div>
-        </div>
-
-        <div>
-          <h2>Ending in </h2>
-          <h1>17 hours : 23 mins : 23 sec</h1>
-        </div>
-        <div></div>
-      </div>*/}
+      <div className="relative mb-[30px]"><img src="/images/dailydeals.webp" className="w-[100%]" alt="" />
+        <div className="flex justify-center items-center h-[100%] w-[100%] absolute top-[0%] right-[0%]"><h1 className="flex text-3xl font-bold text-white">Deal End's in 3 Hours</h1></div>
+      </div>
+      
     </div> 
   )
 }
