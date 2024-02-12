@@ -1,7 +1,7 @@
 import bgvideo from "/public/videos/121.mp4"
 function Bestseller(){
     let leadd = ["/public/videos/121.mp4","/public/videos/122.mp4","/public/videos/123.mp4","/public/videos/124.mp4","/public/videos/124.mp4"];
-    const clip = document.querySelectorAll('#clip');
+const clip = document.querySelectorAll('#clip');
     for (let i = 0; i<clip.length;i++){
         clip[i].addEventListener('mouseenter',
         function(e){
