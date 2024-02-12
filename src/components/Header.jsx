@@ -1,7 +1,7 @@
 function Header(){
   return (
     <>
-      <div className="flex w-[100%] h-[80px] justify-between ">
+      <div className="flex w-[100%] h-[80px] justify-between z-[9999] bg-white fixed">
         <div className="flex item-center w-[150px] justify-around"><img className="w-[100px]" src="images/logo.svg" alt="" /></div>
         <div className="flex w-[600px] text-[12px] justify-around items-center">
           <span>Categories</span>
