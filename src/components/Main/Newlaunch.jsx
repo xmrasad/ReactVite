@@ -1,10 +1,11 @@
-function Dailydealsproduct (){
+function Newlaunch(){
     let product = ["/images/blackbud.webp","/images/w2bud.webp","/images/blueneck.webp","/images/whitebud.webp"];
     return(
-        <div className="px-[40px] grid grid-flow-col gap-[20px] overflow-scroll">
+        <>
+            <div className="px-[40px] grid grid-flow-col gap-[20px] overflow-scroll">
             {product.map((prod) => (
                 <div className="w-[280px] relative">
-                    <div className=""><img className="rounded-t-2xl" src={prod} alt="" /></div>
+                    <div className="w-[280px]"><img className="rounded-t-2xl" src={prod} alt="" /></div>
                     <div className="flex rounded-b-2xl bg-cyan-100 flex-row">
                         <div className="flex flex-col">
                             <div><p>Nivara Icon</p></div>
@@ -26,8 +27,8 @@ function Dailydealsproduct (){
                     <div className="bg-red-500 rounded-md border-none absolute right-[80px] bottom-[60px] text-white"><h3>23 Days Playback</h3></div>
                 </div>
             ))}
-        
-        </div>
+            </div>
+        </>
     )
 }
-export default Dailydealsproduct
+export default Newlaunch

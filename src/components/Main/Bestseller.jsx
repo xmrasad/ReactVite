@@ -13,21 +13,6 @@ const clip = document.querySelectorAll('#clip');
         })
 
     }
-    // let liveadd = [
-    //     v1 = {
-    //         src : "/public/videos/121.mp4",
-    //         name : "Hello one"
-    //     },
-    //     v2 = {
-    //         src : "/public/videos/122.mp4",
-    //         name : "Hello two"
-    //     },
-    //     v3 = {
-    //         src : "/public/videos/123.mp4",
-    //         name : "Hello three"
-    //     },
-    // ];
-    // liveadd.map((add) => (console.log(add.v3.name)));
     return(
         <>
             <div className=" w-[100%] h-[100%]">
@@ -38,9 +23,6 @@ const clip = document.querySelectorAll('#clip');
                             ))}
                             </div>
                     </div>
-                {/* <div>
-                    <div><video className="w-[300px] rounded-xl" autoPlay loop><source src={"/public/videos/121.mp4"} type="video/mp4" /></video></div>
-                </div> */}
             </div>
         </>
     )
