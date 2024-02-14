@@ -1,7 +1,7 @@
 function Dailydealsproduct (){
     let product = ["/images/blackbud.webp","/images/w2bud.webp","/images/blueneck.webp","/images/whitebud.webp"];
     return(
-        <div className="px-[40px] grid grid-flow-col gap-[20px] overflow-scroll">
+        <div className="px-[40px] grid grid-flow-col w-full justify-between overflow-scroll">
             {product.map((prod) => (
                 <div className="w-[280px] relative">
                     <div className=""><img className="rounded-t-2xl" src={prod} alt="" /></div>

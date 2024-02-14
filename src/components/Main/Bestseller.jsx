@@ -16,8 +16,8 @@ const clip = document.querySelectorAll('#clip');
     return(
         <>
             <div className=" w-[100%] h-[100%]">
-                <div className="pl-[28px] my-4"><h2>Explore BestSeller</h2></div>
-                    <div className="flex pl-[28px] pr-[28px] overflow-x-scroll overflow-scroll">
+                <div className="pl-[10%]"><h2>Explore BestSeller</h2></div>
+                    <div className="flex justify-center pl-[28px] pr-[28px] overflow-x-scroll overflow-scroll">
                             <div className="grid grid-flow-col grid-cols-5 gap-x-5 gap-y-5 pl-[28px] pr-[28px] flex-none">{leadd.map((add) => (
                                 <video className="w-[280px] rounded-xl" id="clip" autoPlay loop><source id="vclip" src={add} type="video/mp4" /></video>
                             ))}

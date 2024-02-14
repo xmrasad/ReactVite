@@ -5,6 +5,7 @@ import Dailydealsproduct from "./Main/Dailydealproduct"
 import Categories from "./Main/Categories"
 import Newlaunch from "./Main/Newlaunch"
 import Shipping from "./Main/Shipping"
+import Celeb from "./Main/Celeb"
 
 function Main (){
   return(
@@ -16,6 +17,7 @@ function Main (){
       <Categories/>
       <Newlaunch/>
       <Shipping/>
+      <Celeb/>
     </>
   )
 }
