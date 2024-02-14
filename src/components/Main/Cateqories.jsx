@@ -1,6 +1,6 @@
-function Categories(){
-  return(
+// function Categories(){
+//   return(
 
-  )
-}
-export default Categories
+//   )
+// }
+// export default Categories
