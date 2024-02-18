@@ -1,4 +1,4 @@
-function Dailydealsproduct() {
+function Newlaunch() {
   let product = [
     "/images/blackbud.webp",
     "/images/w2bud.webp",
@@ -6,7 +6,8 @@ function Dailydealsproduct() {
     "/images/whitebud.webp",
   ];
   return (
-    <div className="px-[40px] grid grid-flow-col w-full justify-between overflow-scroll">
+    <>
+      <div className="px-[40px] grid grid-flow-col w-full justify-between overflow-scroll">
       {product.map((prod) => (
         <div className="w-[280px] relative">
           <div className="">
@@ -56,6 +57,7 @@ function Dailydealsproduct() {
         </div>
       ))}
     </div>
+    </>
   );
 }
-export default Dailydealsproduct;
+export default Newlaunch;
